@@ -1,0 +1,19 @@
+server:
+  port: 3001
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/demo_data
+    username: postgres
+    password: root
+
+  jpa:
+    open-in-view: false
+    show-sql: true
+
+  flyway:
+    enabled: true
+
+page:
+  size: 50
