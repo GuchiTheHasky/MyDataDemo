@@ -18,6 +18,18 @@ target/
 *.iws
 *.iml
 *.ipr
+*.index
+*.hprof
+*.domIn.index
+*.domOut.index
+*.idx.index
+*.inbound.index
+*.o2c.index
+*.a2s.index
+*.o2hprof.index
+*.o2ret.index
+*.threads
+*.zip
 
 ### NetBeans ###
 /nbproject/private/

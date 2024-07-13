@@ -47,7 +47,7 @@ public class DefaultDataService implements DataService {
         } while (dataPage.hasNext());
     }
 
-    private void modifyProcess(List<MyData> data) {
+    public void modifyProcess(List<MyData> data) {
         try {
             LocalDateTime now = LocalDateTime.now();
             log.info("New date: {}", now);
